@@ -5,9 +5,3 @@ export const addNewTodo=(text)=>
     const todo={title:text,isCompled:true};
     dispatch({type:todosTypes.addTodo,payload:todo})
 }
-
-// export const addNewTodo=(text)=>
-// (dispatch)=>{
-//     const todo={title:text,isCompled:true};
-//     dispatch({type:todosTypes.addTodo,payload:todo})
-// }
